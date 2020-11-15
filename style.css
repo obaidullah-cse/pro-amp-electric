@@ -238,7 +238,7 @@ body{
     font-size: 35px;
     color:  #878787;
     margin: 35px;
-    padding-bottom: 340px;
+    padding-bottom: 280px;
 }
 /* Services Section CSS End */
 
@@ -255,6 +255,8 @@ body{
 .welcome-area img{
     width: 100%;
     border-radius: 30px;
+    position: relative;
+    margin-top: -280px;
 }
 .video-img{
    
