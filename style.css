@@ -1,0 +1,315 @@
+/* Basic Setup */
+body{
+    margin: 0;
+    padding: 0;
+}
+*ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;;
+}
+/* Header Section CSS Start */
+.header-area{
+}
+.nav-area{
+    overflow: hidden;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.log-area{
+    width:30%;
+    float: left;
+}
+.log-area img{
+    width: 277px;
+    height: 66px;
+}
+.menu-area{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.menu-area ul{
+    list-style-type: none;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    position: relative;
+}
+.menu-area ul li a::before{
+    position: absolute;
+    content: "";
+    background-color: red;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.menu-area ul li a:hover::before{
+    opacity: 1;
+}
+/* Header Section CSS end*/
+
+/* Main Section CSS Start */
+.main-section{
+    background-image: url(img/v3-banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+}
+
+.main-side{
+    width: 50%;
+    float: right;
+    text-align: center;
+    
+}
+.main-side h2{
+    color: #E61C25;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 215px;
+}
+.main-side h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 0px 125px 15px 125px
+}
+.let-get a{
+    background-color: #E61C25;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 70;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.let-get a:hover{
+    background-color: #000000;
+    transition: 0.4s;
+}
+/* Main Section CSS End */
+
+/* Services Section CSS Start */
+.services-area{
+    background-color: #0D0D0C;
+    overflow: hidden;
+}
+.main-services{
+    text-align: center;
+}
+.main-services h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #E61C25;
+    margin-top: 0;
+    padding-top: 100px;
+}
+.lf-icon{
+}
+.lf-icon img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.border-1{
+    background-color: #878787;
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 21px;
+}
+.border-2{
+    background-color: #878787;
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 21px;
+}
+.main-services p{
+    color: #878787;
+    font-size: 27px;
+    margin-top: 33px;
+}
+.s-btn-1{
+    margin-top: 60px;
+}
+.s-btn-1 a{
+    background-color: #E61C25;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.s-btn-1 a:hover{
+    background-color: #000000;
+    transition: 0.4s;
+}
+.com-res{
+    margin-top: 100px;
+    padding-bottom: 430px;
+}
+.commercial{
+    background-image:url(img/1.jpg) ;
+    width: 48%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 20px 20px 0 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.residential{
+    background-image:url(img/2.jpg);
+    width: 48%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.commercial h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 130px;
+}
+.residential h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 130px;
+}
+.s-btn-2 a{
+    background-color: #E61C25;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.s-btn-2 a:hover{
+    background-color: #000000;
+    transition: 0.4s;
+}
+.s-down{
+    text-align: center;
+}
+.s-down-1{
+    color: #E61C25;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+.s-down-2{
+    font-size: 25px;
+    color:  #878787;
+    margin: 15px;
+}
+.s-down-3{
+    font-size: 25px;
+    color:  #878787;
+    margin: 35px;
+}
+.s-down-4{
+    font-size: 35px;
+    color:  #878787;
+    margin: 35px;
+    padding-bottom: 340px;
+}
+/* Services Section CSS End */
+
+/* welcome CSS Start */
+.welcome-area{
+    text-align: center;
+    background-color:#E0E0E0;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome-area img{
+    width: 100%;
+    border-radius: 30px;
+}
+.video-img{
+   
+}
+.welcome-area h2{
+    color:#E61C25;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.welcome-area p{
+    font-size: 23px;
+    line-height: 35px;
+    padding: 0 75px 100px 75px;
+    margin-bottom: 0;
+    
+}
+/* welcome CSS end */
+
+/* Apart CSS Start */
+.apart-area{
+    text-align: center;
+}
+.apart-area h1{
+    color: #FF0000;
+    font-size: 60px;
+    margin-bottom: 25px;
+    line-height: 45px;
+}
+.apart-area p{
+    font-size: 25px;
+    padding: 0 107px;
+    margin-top: 0;
+}
+.apart-area p b{
+    font-size: 25px;
+}
+/* Apart CSS end */
+
+/* Footer CSS Start */
+.footer-area{
+    background-color: #171717;
+    text-align: center;
+}
+.footer-area p{
+    color: #575757;
+    padding: 60px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.footer-area a{
+    text-decoration: none;
+    color: #575757;
+}
+.footer-area a:hover{
+    color: red;
+}
+/* Footer CSS end */
